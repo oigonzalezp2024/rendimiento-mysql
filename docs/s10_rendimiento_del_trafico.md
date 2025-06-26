@@ -4,11 +4,11 @@
 
 **Razones por las que el número de registros afecta el rendimiento:**
 
-1. <a href='./docs/s11_rendimiento_del_trafico.md'>Disco</a> - **Tamaño de los datos en disco.**
-2. <a href='./docs/s12_rendimiento_del_trafico.md'>Indices</a> - **Uso de índices.**
-3. <a href='./docs/s13_rendimiento_del_trafico.md'>Memoria</a> - **Gestión de la memoria (Buffer Pool/Key Buffer).**
-4. <a href='./docs/s14_rendimiento_del_trafico.md'>Costo</a> - **Costo de las operaciones.**
-5. <a href='./docs/s15_rendimiento_del_trafico.md'>Fragmentación</a> - **Fragmentación de datos.**
+1. <a href='s11_rendimiento_del_trafico.md'>Disco</a> - **Tamaño de los datos en disco.**
+2. <a href='s12_rendimiento_del_trafico.md'>Indices</a> - **Uso de índices.**
+3. <a href='s13_rendimiento_del_trafico.md'>Memoria</a> - **Gestión de la memoria (Buffer Pool/Key Buffer).**
+4. <a href='s14_rendimiento_del_trafico.md'>Costo</a> - **Costo de las operaciones.**
+5. <a href='s15_rendimiento_del_trafico.md'>Fragmentación</a> - **Fragmentación de datos.**
 
 ## Impacto del tráfico
 
@@ -23,16 +23,17 @@
 
 Para manejar tablas con un gran número de registros de manera eficiente, es crucial:
 
-* <a href='./docs/s31_mitigar_impacto.md'>Indices</a> - **Diseño de índices adecuado**  
-* <a href='./docs/s32_mitigar_impacto.md'>Optimización</a> - **Optimización de consultas (queries):**  
-* <a href='./docs/s33_mitigar_impacto.md'>Partición</a> - **Particionamiento de tablas:**  
-* <a href='./docs/s34_mitigar_impacto.md'>Archivado</a> - **Archivado de datos antiguos:**  
-* <a href='./docs/s35_mitigar_impacto.md'>Manejo de Hardware</a> - **Hardware potente:**  
-* <a href='./docs/s36_mitigar_impacto.md'>Configuración Mysql</a> - **Configuración de MySQL:**  
-* <a href='./docs/s37_mitigar_impacto.md'>Normalización</a> - **Normalización/Desnormalización estratégica:**  
+* <a href='s31_mitigar_impacto.md'>Indices</a> - **Diseño de índices adecuado**  
+* <a href='s32_mitigar_impacto.md'>Optimización</a> - **Optimización de consultas (queries):**  
+* <a href='s33_mitigar_impacto.md'>Partición</a> - **Particionamiento de tablas:**  
+* <a href='s34_mitigar_impacto.md'>Archivado</a> - **Archivado de datos antiguos:**  
+* <a href='s35_mitigar_impacto.md'>Manejo de Hardware</a> - **Hardware potente:**  
+* <a href='s36_mitigar_impacto.md'>Configuración Mysql</a> - **Configuración de MySQL:**  
+* <a href='s37_mitigar_impacto.md'>Normalización</a> - **Normalización/Desnormalización estratégica:**  
 
 ## Conclusión
 
 Si no se implementan estrategias de optimización adecuadas,  
 un mayor número de registros en una tabla MySQL  
 casi siempre resultará en una degradación del rendimiento del tráfico. 
+
